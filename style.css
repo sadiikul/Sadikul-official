@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#spn {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    margin-right: 10%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, aqua);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 400;
+}
