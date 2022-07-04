@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+
 }
 
 h1 {
@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .half-width {
@@ -32,4 +33,11 @@ section {
 .top-banner {
     background-image: url(bgimgs/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.midd-banner {
+    background-image: url(bgimgs/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 50px;
 }
